@@ -1,0 +1,7 @@
+1- memory 
+
+2- pointer to a function 
+
+3- file discriptore 
+
+4- linked list ;

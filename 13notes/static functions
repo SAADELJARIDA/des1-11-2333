@@ -1,0 +1,10 @@
+	WHAT IS STATIC LIBRARY : there's two types of libraries shared and static .
+
+Static libraries are just collections of object files that are linked into the program during the linking phase of compilation and are not relevant during runtime. This last comment seems obvious, as we already know that object files are also used only during the linking phase, and are not required during runtime - only the program's executable file is needed in order to run the program.
+
+
+
+
+It is recommended to use rc flag because 'c' allow to create the librarie if it doesn’t already exist and 'r' to replace the older object for the new ones.
+
+After an archive is created, or modified, there is a need to index it. This index is later used by the compiler to speed up symbol-lookup inside the library, and to make sure that the order of the symbols in the library won't matter during compilation. so we use the nec code

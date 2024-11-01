@@ -1,0 +1,12 @@
+function to retest : calloc;
+functions to reunderstand : memcpy, memmove , strlcpy strlcat , ft_striteri(test it)
+substr to reviseit
+
+
+
+
+ft_isalpha.c: return 1 if the character is alphabetic
+
+
+YOU SHOULD REUNDERSTAND FILES AND FILE DISCRIPTORS AND ALL THE STUFF IN THERE !!!
+feeing allocated mem
